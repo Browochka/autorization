@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-32406690ebdfbffa3e4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "firstprojec",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "firstprojec::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firstprojec-Debug-df899c4b5539631706d0.json",
+					"name" : "firstprojec",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firstprojec_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firstprojec_autogen-Debug-6fd8b95fcd633b23d9cf.json",
+					"name" : "firstprojec_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "firstprojec_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-firstprojec_autogen_timestamp_deps-Debug-1790ac861cc8cad0bfba.json",
+					"name" : "firstprojec_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug",
+		"source" : "C:/Users/Browki/Documents/firstprojec"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
