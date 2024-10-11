@@ -19,12 +19,10 @@ int main(int argc, char *argv[])
         }
     }
     MainWindow w;
+    Autorization autorization;
+    QObject::connect(&w, &MainWindow::on_pushButton_clicked, [&autorization]() {
+        autorization.show();  // Открываем второе окно
+    });
     w.show();
     return a.exec();
-}
-void MainWindow::on_pushButton_clicked()
-{
-    hide();
-    window = new Autorization();
-    window->show();
 }

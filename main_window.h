@@ -18,8 +18,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
-
-private slots:
+signals:
     void on_pushButton_clicked();
 
 private:

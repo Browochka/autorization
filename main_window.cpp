@@ -19,6 +19,7 @@ MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWin
 
     centralWidget()->setLayout(layout);
     setCentralWidget(centralWidget());
+
 }
 
 MainWindow::~MainWindow()
