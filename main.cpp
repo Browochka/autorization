@@ -1,10 +1,9 @@
-#include "mainwindow.h"
+#include "autorization.h"
+#include "main_window.h"
 
 #include <QApplication>
 #include <QLocale>
 #include <QTranslator>
-#include <qpushbutton>
-#include <QHBoxLayout>
 
 int main(int argc, char *argv[])
 {
@@ -22,4 +21,10 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.show();
     return a.exec();
+}
+void MainWindow::on_pushButton_clicked()
+{
+    hide();
+    window = new Autorization();
+    window->show();
 }

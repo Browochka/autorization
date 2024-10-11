@@ -43,10 +43,11 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Browki/Documents/fir
 set(OLD_GLOB
   "C:/Users/Browki/Documents/firstprojec/autorization.cpp"
   "C:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.30.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+  "C:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/firstprojec_autogen/EWIEGA46WW/moc_main_window.cpp"
   "C:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/firstprojec_autogen/EWIEGA46WW/moc_mainwindow.cpp"
   "C:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/firstprojec_autogen/mocs_compilation.cpp"
   "C:/Users/Browki/Documents/firstprojec/main.cpp"
-  "C:/Users/Browki/Documents/firstprojec/mainwindow.cpp"
+  "C:/Users/Browki/Documents/firstprojec/main_window.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -67,9 +68,10 @@ file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Browki/Documents/fir
 set(OLD_GLOB
   "C:/Users/Browki/Documents/firstprojec/autorization.h"
   "C:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/firstprojec_autogen/include/ui_autorization.h"
+  "C:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/firstprojec_autogen/include/ui_main_window.h"
   "C:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/firstprojec_autogen/include/ui_mainwindow.h"
   "C:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/firstprojec_autogen/moc_predefs.h"
-  "C:/Users/Browki/Documents/firstprojec/mainwindow.h"
+  "C:/Users/Browki/Documents/firstprojec/main_window.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -170,7 +172,7 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/Browki/Documents/firstprojec/*.ui")
 set(OLD_GLOB
   "C:/Users/Browki/Documents/firstprojec/autorization.ui"
-  "C:/Users/Browki/Documents/firstprojec/mainwindow.ui"
+  "C:/Users/Browki/Documents/firstprojec/main_window.ui"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

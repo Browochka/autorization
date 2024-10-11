@@ -16,9 +16,9 @@ set(TS_FILES firstprojec_ru_RU.ts)
 
 set(PROJECT_SOURCES
         main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+        main_window.cpp
+        main_window.h
+        main_window.ui
         ${TS_FILES}
 )
 

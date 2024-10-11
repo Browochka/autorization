@@ -65,9 +65,9 @@ build CMakeFiles/firstprojec.dir/main.cpp.obj: CXX_COMPILER__firstprojec_unscann
   OBJECT_DIR = CMakeFiles\firstprojec.dir
   OBJECT_FILE_DIR = CMakeFiles\firstprojec.dir
 
-build CMakeFiles/firstprojec.dir/mainwindow.cpp.obj: CXX_COMPILER__firstprojec_unscanned_Debug C$:/Users/Browki/Documents/firstprojec/mainwindow.cpp || cmake_object_order_depends_target_firstprojec
+build CMakeFiles/firstprojec.dir/main_window.cpp.obj: CXX_COMPILER__firstprojec_unscanned_Debug C$:/Users/Browki/Documents/firstprojec/main_window.cpp || cmake_object_order_depends_target_firstprojec
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\firstprojec.dir\mainwindow.cpp.obj.d
+  DEP_FILE = CMakeFiles\firstprojec.dir\main_window.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Browki/Documents/firstprojec/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/firstprojec_autogen/include -isystem C:/msys64/mingw64/include/qt6/QtCore -isystem C:/msys64/mingw64/include/qt6 -isystem C:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem C:/msys64/mingw64/include/qt6/QtWidgets -isystem C:/msys64/mingw64/include/qt6/QtGui
   OBJECT_DIR = CMakeFiles\firstprojec.dir
@@ -89,7 +89,7 @@ build CMakeFiles/firstprojec.dir/autorization.cpp.obj: CXX_COMPILER__firstprojec
 #############################################
 # Link the executable firstprojec.exe
 
-build firstprojec.exe: CXX_EXECUTABLE_LINKER__firstprojec_Debug CMakeFiles/firstprojec.dir/firstprojec_autogen/mocs_compilation.cpp.obj CMakeFiles/firstprojec.dir/main.cpp.obj CMakeFiles/firstprojec.dir/mainwindow.cpp.obj CMakeFiles/firstprojec.dir/autorization.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || firstprojec_autogen firstprojec_autogen_timestamp_deps
+build firstprojec.exe: CXX_EXECUTABLE_LINKER__firstprojec_Debug CMakeFiles/firstprojec.dir/firstprojec_autogen/mocs_compilation.cpp.obj CMakeFiles/firstprojec.dir/main.cpp.obj CMakeFiles/firstprojec.dir/main_window.cpp.obj CMakeFiles/firstprojec.dir/autorization.cpp.obj | C$:/msys64/mingw64/lib/libQt6Widgets.dll.a C$:/msys64/mingw64/lib/libQt6Gui.dll.a C$:/msys64/mingw64/lib/libQt6Core.dll.a C$:/msys64/mingw64/lib/libQt6EntryPoint.a || firstprojec_autogen firstprojec_autogen_timestamp_deps
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/msys64/mingw64/lib/libQt6Widgets.dll.a  C:/msys64/mingw64/lib/libQt6Gui.dll.a  C:/msys64/mingw64/lib/libQt6Core.dll.a  -lmpr  -luserenv  -lmingw32  C:/msys64/mingw64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -175,7 +175,7 @@ build firstprojec_autogen_timestamp_deps: phony
 #############################################
 # Utility command for firstprojec_autogen
 
-build firstprojec_autogen: phony CMakeFiles/firstprojec_autogen firstprojec_autogen/include/ui_mainwindow.h firstprojec_autogen/include/ui_autorization.h firstprojec_autogen/timestamp firstprojec_autogen/mocs_compilation.cpp firstprojec_autogen_timestamp_deps
+build firstprojec_autogen: phony CMakeFiles/firstprojec_autogen firstprojec_autogen/include/ui_main_window.h firstprojec_autogen/include/ui_autorization.h firstprojec_autogen/timestamp firstprojec_autogen/mocs_compilation.cpp firstprojec_autogen_timestamp_deps
 
 
 #############################################
@@ -192,7 +192,7 @@ build firstprojec_autogen/timestamp firstprojec_autogen/mocs_compilation.cpp | $
 #############################################
 # Phony custom command for CMakeFiles\firstprojec_autogen
 
-build CMakeFiles/firstprojec_autogen firstprojec_autogen/include/ui_mainwindow.h firstprojec_autogen/include/ui_autorization.h | ${cmake_ninja_workdir}CMakeFiles/firstprojec_autogen ${cmake_ninja_workdir}firstprojec_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}firstprojec_autogen/include/ui_autorization.h: phony firstprojec_autogen/timestamp || firstprojec_autogen_timestamp_deps
+build CMakeFiles/firstprojec_autogen firstprojec_autogen/include/ui_main_window.h firstprojec_autogen/include/ui_autorization.h | ${cmake_ninja_workdir}CMakeFiles/firstprojec_autogen ${cmake_ninja_workdir}firstprojec_autogen/include/ui_main_window.h ${cmake_ninja_workdir}firstprojec_autogen/include/ui_autorization.h: phony firstprojec_autogen/timestamp || firstprojec_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

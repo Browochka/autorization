@@ -1,22 +1,22 @@
-#ifndef AUTORIZATION_H
-#define AUTORIZATION_H
+#ifndef Autorization_H
+#define Autorization_H
 
 #include <QDialog>
 namespace Ui {
-class autorization;
+class Autorization;
 }
 
-class autorization: public QDialog
+class Autorization: public QDialog
 {
 public:
-    autorization(QWidget *parent = nullptr);
-    ~autorization();
+    Autorization(QWidget *parent = nullptr);
+    ~Autorization();
 private slots:
     void on_pushButton_clicked();
 
 private:
-    Ui::autorization *ui;
+    Ui::Autorization *ui;
 };
 
 
-#endif // AUTORIZATION_H
+#endif // Autorization_H

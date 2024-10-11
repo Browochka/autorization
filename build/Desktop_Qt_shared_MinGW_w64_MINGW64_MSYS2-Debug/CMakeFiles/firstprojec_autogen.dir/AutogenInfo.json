@@ -267,9 +267,9 @@
 			null
 		],
 		[
-			"C:/Users/Browki/Documents/firstprojec/mainwindow.h",
+			"C:/Users/Browki/Documents/firstprojec/main_window.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"EWIEGA46WW/moc_main_window.cpp",
 			null
 		]
 	],
@@ -348,7 +348,7 @@
 	[
 		[ "C:/Users/Browki/Documents/firstprojec/autorization.cpp", "MU", null ],
 		[ "C:/Users/Browki/Documents/firstprojec/main.cpp", "MU", null ],
-		[ "C:/Users/Browki/Documents/firstprojec/mainwindow.cpp", "MU", null ]
+		[ "C:/Users/Browki/Documents/firstprojec/main_window.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
